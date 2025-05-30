@@ -9,9 +9,17 @@ export default function ContractCard({
     className?: React.CSSProperties | ClassValue | string;
 }) {
     return (
-        <div className={cn("p-4 bg-white rounded-md", className)}>
-            <div className="flex mb-4 flex-col gap-4 xs:flex-row xs:justify-between xs:items-center">
-                <div className="">
+        <div className={cn("p-4 bg-white rounded-md relative", className)}>
+
+            <div className='bg-clr-porcelain absolute top-0 left-0 w-[160px] h-[48px] xs:h-[58px]'
+                style={{
+                    clipPath: `polygon(0 0, 100% 0%, 80% 100%, 0% 100%)`
+                }}
+            >
+            </div>
+
+            <div className="flex mb-4 flex-col gap-4 xs:flex-row xs:justify-between xs:items-start">
+                <div className="z-20">
                     <p className="font-bold text-lg">Contract</p>
                 </div>
                 <div >
