@@ -25,11 +25,11 @@ export default function Hero({
 
                     {/* left  */}
                     <div
-                        className="hidden sm:block  absolute top-10 left-10   p-4 bg-black/5 backdrop-blur-xl shadow-md rounded-lg"
+                        className="hidden sm:block  absolute top-10 left-10   p-4 lg:p-6 xl:p-8 bg-black/5 backdrop-blur-xl shadow-md rounded-lg"
                         style={{
                             clipPath: `polygon(100% 0, 100% 50%, 85% 100%, 0 100%, 0 0)`,
                         }}>
-                        <p className="uppercase font-bold lg:text-4xl xl:text-5xl text-white text-2xl leading-relaxed ">
+                        <p className="uppercase font-bold lg:text-4xl 2xl:text-5xl text-white text-2xl leading-relaxed ">
                             find the{" "}
                             <span className="text-clr-slimeGreen">
                                 {" "}
@@ -46,12 +46,12 @@ export default function Hero({
                     {/* right */}
 
                     <div
-                        className="hidden sm:block absolute top-34 md:top-24 lg:top-36 right-10 pl-14 pr-2 pb-6 pt-6 bg-black/5 backdrop-blur-xl rounded-lg"
+                        className="hidden sm:block absolute top-34 md:top-24 lg:top-40 right-16 pl-14 pr-2 pb-6 pt-6  bg-black/5 backdrop-blur-xl rounded-lg"
                         style={{
                             clipPath: `polygon(18% 0, 200% 0, 200% 200%, 0 200%, 0 44%)`,
                         }}>
-                        <div className="relative  w-[250px] lg:w-[350px] xl:w-[440px]">
-                            <p className="mb-2 capitalize lg:text-4xl xl:text-5xl font-bold text-white  text-2xl leading-loose  ">
+                        <div className="relative  w-[250px] lg:w-[350px] 2xl:w-[440px]">
+                            <p className="mb-2 capitalize lg:text-4xl 2xl:text-5xl font-bold text-white  text-2xl leading-loose  ">
                                 We'll{" "}
                                 <span className="text-clr-slimeGreen">
                                     {" "}
